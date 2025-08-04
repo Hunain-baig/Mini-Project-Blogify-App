@@ -1,4 +1,5 @@
 import { gifs, photos, videos } from "../assets";
+import Typewriter from "typewriter-effect";
 
 const INFO = {
 	main: {
@@ -21,7 +22,11 @@ const INFO = {
 
 	homepage: {
 		title: "Hello, ",
-		sub_title: "I am Hunain Baig.",
+		sub_title: [
+			"I am Hunain Baig.",
+			"Software Engineer.",
+			"Software Developer.",
+		],
 		description:
 			"Experienced Software Engineer, focusing on both front-end and back-end technologies. I've successfully delivered enterprise applications for leading organizations across various regions. My curiosity for new technologies has led me to work on diverse projects, including developing JavaScript modules, and building interactive web applications and full-stack solutions. Every project presents a new opportunity to grow my skills and drive innovation. Let’s connect and explore how we can collaborate on exciting projects together!",
 

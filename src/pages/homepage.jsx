@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import Typewriter from "typewriter-effect";
 
 import { faMailBulk, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -470,7 +471,15 @@ const Homepage = () => {
 									{INFO.homepage.title}
 								</div>
 								<div className="title homepage-title blueGrad">
-									{INFO.homepage.sub_title}
+									<Typewriter
+										options={{
+											strings: INFO.homepage.sub_title,
+											autoStart: true,
+											loop: true,
+											delay: 50,
+											deleteSpeed: 30,
+										}}
+									/>
 								</div>
 								<div className="subtitle homepage-subtitle font-semibold">
 									{INFO.homepage.description}
