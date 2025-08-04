@@ -18,9 +18,9 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/portfolio/projects">Projects</Link>
 						</li>
-						<li className="footer-nav-link-item">
+						{/* <li className="footer-nav-link-item">
 							<Link to="/portfolio/articles">Articles</Link>
-						</li>
+						</li> */}
 						<li className="footer-nav-link-item">
 							<Link to="/portfolio/contact">Contact</Link>
 						</li>
