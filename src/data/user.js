@@ -2,15 +2,15 @@ import { gifs, photos, videos } from "../assets";
 
 const INFO = {
 	main: {
-		title: "Rafay Asad",
-		name: "Rafay Asad",
-		email: "asadrafay998@gmail.com",
+		title: "Hunain Baig",
+		name: "Hunain Baig",
+		email: "xunnainali@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/Rafayasad",
+		github: "https://github.com/Hunain-baig",
 		linkedin: "https://www.linkedin.com/in/rafay-asad-87b39a213/",
 		instagram: "https://www.instagram.com/rafayasad_?igsh=cmowa2JoZmwydXlj",
 		stackoverflow: "https://stackoverflow.com/users/12487652/rafayasad",
