@@ -10,6 +10,7 @@ import {
 	faInstagram,
 	faMedium,
 	faDev,
+	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -500,6 +501,16 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
+									className="homepage-social-icon"
+								/>
+							</a>
+							{/* <a
 								href={INFO.socials.medium}
 								target="_blank"
 								rel="noreferrer"
@@ -508,8 +519,8 @@ const Homepage = () => {
 									icon={faMedium}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
+							</a> */}
+							{/* <a
 								href={INFO.socials.devCommunity}
 								target="_blank"
 								rel="noreferrer"
@@ -518,8 +529,8 @@ const Homepage = () => {
 									icon={faDev}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
+							</a> */}
+							{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -528,8 +539,8 @@ const Homepage = () => {
 									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
-							</a>
-							<a
+							</a> */}
+							{/* <a
 								href={INFO.socials.instagram}
 								target="_blank"
 								rel="noreferrer"
@@ -538,7 +549,7 @@ const Homepage = () => {
 									icon={faInstagram}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"

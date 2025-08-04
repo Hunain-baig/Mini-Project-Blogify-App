@@ -29,7 +29,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Hunainbaig.github.io.
+						© 2023 Hunainbaig.github.io.
 					</div>
 				</div>
 			</div>

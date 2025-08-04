@@ -9,14 +9,14 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
+		// twitter: "",
 		github: "https://github.com/Hunain-baig",
-		linkedin: "https://www.linkedin.com/in/rafay-asad-87b39a213/",
-		instagram: "https://www.instagram.com/rafayasad_?igsh=cmowa2JoZmwydXlj",
-		stackoverflow: "https://stackoverflow.com/users/12487652/rafayasad",
-		facebook: "https://www.facebook.com/rafay.asad.1?mibextid=ZbWKwL",
-		medium: "https://medium.com/@asadrafay998",
-		devCommunity: "https://dev.to/rafayasad",
+		linkedin: "https://www.linkedin.com/in/hunain-baig-5a6a24378/",
+		// instagram: "",
+		// stackoverflow: "",
+		// facebook: "",
+		// medium: "",
+		// devCommunity: "",
 	},
 
 	homepage: {
