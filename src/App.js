@@ -6,8 +6,6 @@ import Homepage from "./pages/homepage";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import ProjectDetails from "./pages/projectDetails";
-import Articles from "./pages/articles";
-import ReadArticle from "./pages/readArticle";
 import Contact from "./pages/contact";
 import Notfound from "./pages/404";
 
@@ -34,11 +32,6 @@ function App() {
 				<Route
 					path="/portfolio/project-details/:projectId"
 					element={<ProjectDetails />}
-				/>
-				<Route path="/portfolio/articles" element={<Articles />} />
-				<Route
-					path="/portfolio/article/:slug"
-					element={<ReadArticle />}
 				/>
 				<Route path="/portfolio/contact" element={<Contact />} />
 				<Route path="*" element={<Notfound />} />

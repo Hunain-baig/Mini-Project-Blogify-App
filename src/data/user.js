@@ -25,7 +25,7 @@ const INFO = {
 		sub_title: [
 			"I am Hunain Baig.",
 			"Software Engineer.",
-			"Software Developer.",
+			"Full Stack Developer.",
 		],
 		description:
 			"Experienced Software Engineer, focusing on both front-end and back-end technologies. I've successfully delivered enterprise applications for leading organizations across various regions. My curiosity for new technologies has led me to work on diverse projects, including developing JavaScript modules, and building interactive web applications and full-stack solutions. Every project presents a new opportunity to grow my skills and drive innovation. Let’s connect and explore how we can collaborate on exciting projects together!",
@@ -46,11 +46,6 @@ const INFO = {
 			"As a full-stack JavaScript developer with expertise in both front-end and back-end development. For the front-end, I have experience working with key frameworks such as React.js, Angular.js, and Next.js. On the back-end, my primary focus is on Node.js and Express.js. Additionally, I have experience in mobile development using React Native. I enjoy solving complex problems and continuously learning new skills. I am passionate about creating high-quality code that adheres to best practices and industry standards. I am always seeking new challenges and opportunities to grow as a developer.",
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
 
 	projects: [
 		{

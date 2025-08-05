@@ -1,5 +1,5 @@
 {
-	"homepage": "https://hunain.github.io/portfolio/",
+	"homepage": "https://hunainbaig.github.io/portfolio/",
 	"name": "hunain",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
@@ -59,7 +59,7 @@
 		"tabWidth": 4
 	},
 	"devDependencies": {
-		"gh-pages": "^6.2.0",
+		"gh-pages": "^6.3.0",
 		"tailwindcss": "^3.4.6"
 	}
 }

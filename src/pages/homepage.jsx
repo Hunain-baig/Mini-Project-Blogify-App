@@ -17,14 +17,14 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Article from "../components/homepage/article";
+
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import homepageImg from "../assets/images/homepage.jpg"
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-import myArticles from "../data/articles";
+
 
 import "./styles/homepage.css";
 
@@ -598,23 +598,6 @@ const Homepage = () => {
 								<div className="title-two homepage-title blueGrad">
 									{INFO.homepage.blog_sub_title}
 								</div>
-								{myArticles.map((article, index) => (
-									<div
-										className="homepage-article"
-										key={(index + 1).toString()}
-									>
-										<Article
-											key={(index + 1).toString()}
-											date={article().date}
-											title={article().title}
-											description={article().description}
-											link={"/article/" + (index + 1)}
-											redirect={
-												"https://medium.com/@asadrafay998/how-to-deploy-a-single-page-application-on-github-pages-e8226399c78f"
-											}
-										/>
-									</div>
-								))}
 							</div>
 
 							{/* <div className="homepage-works">
