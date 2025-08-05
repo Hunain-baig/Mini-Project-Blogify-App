@@ -1,12 +1,11 @@
 {
-	"homepage": "https://rafayasad.github.io/portfolio/",
-	"name": "rafay",
+	"homepage": "https://hunain.github.io/portfolio/",
+	"name": "hunain",
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Rafay Asad",
-		"email": "asadrafay998@gmail.com",
-		"url": "https://tharindu.dev"
+		"name": "Hunain Baig",
+		"email": "xunainali4@gmail.com"
 	},
 	"license": "MIT",
 	"private": true,
