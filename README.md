@@ -6,7 +6,7 @@ Reactfolio is a modern and customizable personal portfolio web template built us
 <img src="https://i.imgur.com/ZWPO61A.jpeg" alt="Reactfolio" />
 </center>
 
-Live demo here: <a href="https://rafayasad.github.io/portfolio/" target="_blank">reactfolio.rafayasad.github</a>
+Live demo here: <a href="https://hunainbaig.github.io/portfolio/" target="_blank">reactfolio.hunainbaig.github</a>
 <br/>
 
 -   [Features](#-features)
@@ -25,7 +25,6 @@ Live demo here: <a href="https://rafayasad.github.io/portfolio/" target="_blank"
     -   Home
     -   About
     -   Projects
-    -   Articles
     -   Contact
 -   📱 Fully Responsive
 -   🛠 Easy configurations
@@ -61,57 +60,6 @@ Directory: `/src/data/`
 -   `user.js`
 
     From this you can change the content of each page of the web application.
-
--   `articles.js`
-
-    From this you can add your articles to the web application.
-
-    Instructions:
-
-    -   Add new article
-
-        1. Create a new function starts with `article_`. For example you can add new function named `article_3`.
-
-        2. Then add the data accordingly.
-
-            - Add `<React.Fragment>` tag and it's closing tags in body.
-            - In React there has no keyword `class`, so you should use `className` to define html classes.
-
-            ```js
-            function article_3() {
-            	return {
-            		date: "7 May 2023",
-            		title: "The Benefits of Cloud Computing",
-            		description: "Why businesses are turning to the cloud.",
-            		style: `
-            				.random-image {
-            					align-self: center;
-            					outline: 2px solid red;
-            				}
-            				`,
-            		body: (
-            			<React.Fragment>
-            				<div className="article-content">
-            					<div className="paragraph">
-            						Content of article 1
-            					</div>
-            					<img
-            						src="https://picsum.photos/200/300"
-            						alt="random"
-            						className="random-image"
-            					/>
-            				</div>
-            			</React.Fragment>
-            		),
-            	};
-            }
-            ```
-
-        3. In the last lines you will see an array to which you need to add your new `articles` function.
-
-            ```js
-            const myArticles = [article_1, article_2, article_3];
-            ```
 
 -   `seo.js`
 
